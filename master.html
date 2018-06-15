@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+       <title><!-- Page Title --></title>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <main id="canvasMain" ondblclick="dropBombFunction()" style="border:1px solid #000000;"></main>
+        
+        <img src="assets/DPAD_png/upKeyMoblie.png" onclick="moveUP()" id="buttonUP" >
+        <img src="assets/DPAD_png/downKeyMoblie.png" onclick="moveDOWN()" id="buttonDOWN" >
+        <img src="assets/DPAD_png/centerKey.png" id="buttonCENTER" >
+        <img src="assets/DPAD_png/leftKeyMoblie.png" onclick="moveLEFT()" id="buttonLEFT" >
+        <img src="assets/DPAD_png/rightKeyMoblie.png" onclick="moveRIGHT()"id="buttonRIGHT" >
+          
+    </body>
+    <script src="javascript/maps.js"></script>
+    <script src="javascript/objectsGrid.js"></script>
+    <script src="javascript/itemBlock.js"></script>
+    <script src="javascript/items.js"></script>
+    <script src="javascript/collisionMechanics.js"></script>
+    <script src="javascript/player.js"></script>
+    <script src="javascript/bomb.js"></script>
+
+    <script src="javascript/game.js"></script>
+
+    <script src="javascript/moblieController.js"></script>
+    
+</html>

@@ -1,0 +1,80 @@
+html{
+	touch-action: manipulation;
+}
+body{
+	touch-action: manipulation;
+}
+#canvasMain{
+    width: 98vw;
+    height: 97vh;
+	touch-action: manipulation;
+	
+}
+
+#buttonUP{
+    position: absolute;
+
+    top: 19vh;
+    left: 16vw;
+
+    height: 21vh;
+    width: 15vw;
+
+    opacity: 0.5;
+    touch-action: manipulation;
+}
+
+#buttonDOWN{
+    position: absolute;
+
+    top: 61vh;
+    left: 16vw;
+
+    height: 21vh;
+    width: 15vw;
+
+    opacity: 0.5;
+   touch-action: manipulation;
+}
+
+#buttonLEFT{
+    position: absolute;
+
+    top: 40vh;
+    left: 1vw;
+
+    height: 21vh;
+    width: 15vw;
+
+    opacity: 0.5;
+    
+    touch-action: manipulation;
+    
+}
+
+#buttonRIGHT{
+    position: absolute;
+
+    top: 40vh;
+    left: 31vw;
+
+    height: 21vh;
+    width: 15vw;;
+
+    opacity: 0.5;
+   touch-action: manipulation;
+}
+
+#buttonCENTER{
+    position: absolute;
+
+
+    top: 40vh;
+    left: 16vw;
+
+    height: 21vh;
+    width: 15vw;
+
+    opacity: 0.5;
+    touch-action: manipulation;
+}
